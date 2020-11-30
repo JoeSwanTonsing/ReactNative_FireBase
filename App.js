@@ -6,6 +6,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import HomeScreen from './screens/Home';
 import AuthScreen from './screens/Auth';
 import RealtimeDBScreen from './screens/RealtimeDB';
+import CloudFireStoreScreen from './screens/cloudFirestore';
 
 const Stack = createStackNavigator();
 
@@ -32,6 +33,13 @@ function App() {
           component={RealtimeDBScreen}
           options={{
             title: 'Realtime Database',
+          }}
+        />
+        <Stack.Screen
+          name="CloudFirestore"
+          component={CloudFireStoreScreen}
+          options={{
+            title: 'Cloud Firestore',
           }}
         />
       </Stack.Navigator>
