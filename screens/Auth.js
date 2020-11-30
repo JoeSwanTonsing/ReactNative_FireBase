@@ -10,7 +10,6 @@ import {
 import {auth} from '../Setup';
 import {SignupUser, SigninUser, SignOutUser} from '../apiService';
 
-import ListItem from '../src/components/ListItem';
 import Spinner from '../src/components/Spinner';
 
 export default function AuthScreen({navigation}) {

@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   TextInput,
 } from 'react-native';
-import {auth, database} from '../Setup';
+import {database} from '../Setup';
 import {savePost} from '../apiService';
 
 import Spinner from '../src/components/Spinner';
@@ -160,7 +160,7 @@ export default function RealtimeDB() {
 
           {posts.map((item, index) => (
             <View style={styles.olderContainer} key={item.Id}>
-              <Text style={styles.olderDate} numberOfLines>
+              <Text style={styles.olderDate} numberOfLines={1}>
                 {item.Date}
               </Text>
               <Text style={styles.olderTitle} numberOfLines={1}>
@@ -190,9 +190,7 @@ export default function RealtimeDB() {
     <SafeAreaView style={{flex: 1}}>
       {isLoading ? (
         <View style={styles.spinnerContainer}>
-          <Spinner
-            color="#264653"
-          />
+          <Spinner color="#264653" />
         </View>
       ) : (
         renderScreen()
