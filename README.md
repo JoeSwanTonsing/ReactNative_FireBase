@@ -1,7 +1,7 @@
 # ReactNative_FireBase
 React Native With Firebase 2020 - Dated: 29 November 2020
 
-Basic React Native App with Firebase Integration to showcase how to use firebase products in react-native apps.\ The examples are, in no way perfect, and doest not have examples for every scenario, but will help you kickstart you development. Refer to the official documentation from the React Native Firebase website (links provided below) for more examples.\
+Basic React Native App with Firebase Integration to showcase how to use firebase products in react-native apps. The examples are, in no way perfect, and doest not have examples for every scenario, but will help you kickstart you development. This project covers only the basic usage of each product. Refer to the official documentation from the React Native Firebase website (links provided below) for more usage and examples.
 
 
 ### Getting Started:
@@ -9,21 +9,21 @@ Basic React Native App with Firebase Integration to showcase how to use firebase
 - To get started visit: https://rnfirebase.io
 
 ## Firebase Features in this Project:
-1. **Authentication**\
+**1. Authentication**\
 ⚠️ with Email and Password only\
 ‼️ more authentication methods to be done.
-- Docs: https://rnfirebase.io/auth/usage
--  ✔️ 1.1. Sign Up - Provide Email and Password
--  ✔️ 1.2. Sign In - Using registered Email and Password
--  ✔️ 1.3. Logout - Logout signed in user
+Docs: https://rnfirebase.io/auth/usage
+✔️ 1.1. Sign Up - Provide Email and Password
+✔️ 1.2. Sign In - Using registered Email and Password
+✔️ 1.3. Logout - Logout signed in user
 
-2. **Realtime Database:**
-- Docs: https://rnfirebase.io/database/usage
--  ✔️ 2.1. Write data to Realtime Database
--  ✔️ 2.2. Read data from Realtime Database
--  ✔️ 2.3. Modify/Edit data in Realtime Database
--  ✔️ 2.4. Delete All Records in Realtime Database
--  ✔️ 2.5. Delete Specific Record from Realtime Database
+**2. Realtime Database:**
+Docs: https://rnfirebase.io/database/usage
+✔️ 2.1. Write data to Realtime Database
+✔️ 2.2. Read data from Realtime Database
+✔️ 2.3. Modify/Edit data in Realtime Database
+✔️ 2.4. Delete All Records in Realtime Database
+✔️ 2.5. Delete Specific Record from Realtime Database
 
 3. **Cloud Firestore:** : (Static Implementations Only)
 - Docs: https://rnfirebase.io/firestore/usage
