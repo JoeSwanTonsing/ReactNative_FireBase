@@ -12,7 +12,7 @@ Basic React Native App with Firebase Integration to showcase how to use firebase
 **1. Authentication**\
 ⚠️ with Email and Password only\
 ‼️ more authentication methods to be done\
-Docs: https://rnfirebase.io/auth/usage\
+Docs: https://rnfirebase.io/auth/usage<br />
 ✔️ 1.1. Sign Up - Provide Email and Password\
 ✔️ 1.2. Sign In - Using registered Email and Password\
 ✔️ 1.3. Logout - Logout signed in user\
