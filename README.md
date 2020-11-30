@@ -1,6 +1,9 @@
 # ReactNative_FireBase
 React Native With Firebase 2020
 
+### Firebase Features in this Project:
+1. Authentication
+2. Realtime Database
 
 ### Dependencies Versions used in this project:
 1. react-native-cli: 2.0.1
@@ -17,7 +20,3 @@ React Native With Firebase 2020
 11. react-native-reanimated: ^1.13.2
 12. react-native-safe-area-context: ^3.1.9
 13. react-native-screens: ^2.15.0
-
-### Firebase Features in this Project:
-1. Authentication
-2. Realtime Database
