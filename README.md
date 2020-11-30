@@ -3,6 +3,10 @@ React Native With Firebase 2020
 
 Dated: 29 November 2020
 
+## Getting Started:
+
+- To get started visit: https://rnfirebase.io
+
 ### Firebase Features in this Project:
 1. **Authentication**\
 ⚠️ with Email and Password only\
