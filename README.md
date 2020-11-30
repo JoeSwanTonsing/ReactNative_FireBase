@@ -19,6 +19,7 @@ Dated: 29 November 2020
 -  2.5. Delete Specific Record from Realtime Database ✔️
 
 3. **Cloud Firestore:**
+-- Check addUser() and addUserMod() methods for the below:
 -  3.1. Write data to Cloud Firestore ✔️
 -  3.1.a. using ".add" ✔️
 -  3.1.b. using ".set" ✔️
