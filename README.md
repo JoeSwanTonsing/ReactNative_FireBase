@@ -3,11 +3,11 @@ React Native With Firebase 2020
 
 Dated: 29 November 2020
 
-## Getting Started:
+### Getting Started:
 
 - To get started visit: https://rnfirebase.io
 
-### Firebase Features in this Project:
+## Firebase Features in this Project:
 1. **Authentication**\
 ⚠️ with Email and Password only\
 ‼️ more authentication methods to be done.
@@ -36,7 +36,7 @@ Dated: 29 November 2020
 - https://rnfirebase.io/firestore/usage
 
 
-### Dependencies Versions used in this project:
+## Dependencies : Versions used in this project:
 1. react-native-cli: 2.0.1
 
 2. @react-native-community/masked-view: ^0.1.10
