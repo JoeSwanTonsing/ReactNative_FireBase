@@ -19,13 +19,15 @@ Dated: 29 November 2020
 -  2.5. Delete Specific Record from Realtime Database ✔️
 
 3. **Cloud Firestore:** : (Static Implementations Only)
-- Check addUser() and addUserMod() methods for the below:
+- 👉🏻 Check addUser() and addUserMod() methods for the below:
 -  3.1. Write data to Cloud Firestore ✔️
 -  3.1.a. using ".add" ✔️
 -  3.1.b. using ".set" ✔️
 -  3.2. Update data in Cloud Firestore ✔️
 -  3.2.a. using ".set" - overrides existing data ✔️
 -  3.2.b. using ".update" - update only the passed parameter ✔️
+- 👉🏻 Check deleteData() for the below:
+- Delete data using a document ID ✔️
 
 
 ### Dependencies Versions used in this project:
