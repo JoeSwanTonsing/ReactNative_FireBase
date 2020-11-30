@@ -3,6 +3,7 @@ import firebase from '@react-native-firebase/app';
 import auth from '@react-native-firebase/auth';
 import database from '@react-native-firebase/database';
 import firestore from '@react-native-firebase/firestore';
+import storage from '@react-native-firebase/storage';
 
 import App from './App';
 
@@ -24,5 +25,5 @@ function Setup() {
   return <App />;
 }
 
-export {firebase, auth, database, firestore};
+export {firebase, auth, database, firestore, storage};
 export default Setup;

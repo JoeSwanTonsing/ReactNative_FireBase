@@ -7,6 +7,7 @@ import HomeScreen from './screens/Home';
 import AuthScreen from './screens/Auth';
 import RealtimeDBScreen from './screens/RealtimeDB';
 import CloudFireStoreScreen from './screens/cloudFirestore';
+import CloudStorageScreen from './screens/cloudStorage';
 
 const Stack = createStackNavigator();
 
@@ -40,6 +41,13 @@ function App() {
           component={CloudFireStoreScreen}
           options={{
             title: 'Cloud Firestore',
+          }}
+        />
+        <Stack.Screen
+          name="CloudStorage"
+          component={CloudStorageScreen}
+          options={{
+            title: 'Cloud Storage',
           }}
         />
       </Stack.Navigator>

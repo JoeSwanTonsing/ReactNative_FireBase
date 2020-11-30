@@ -1,7 +1,4 @@
-import React, {useState} from 'react';
 import {auth, database} from './Setup';
-
-
 
 export const SignupUser = (email, password) => {
   return new Promise(function (resolve, reject) {
@@ -58,6 +55,7 @@ export const savePost = (Id, Date, Title, Message) => {
       Message: Message,
     };
     database()
+      .setPersistenceEnabled(true)
       .ref('posts/' + key)
       .update(dataToSave)
       .then((snapshot) => {

@@ -48,6 +48,7 @@ export default function RealtimeDB() {
   const deletePost = (item) => {
     //Add confirmation dialog before deleting
     database()
+      .setPersistenceEnabled(true)
       .ref('posts/' + item.Id)
       .remove()
       .then(() => {

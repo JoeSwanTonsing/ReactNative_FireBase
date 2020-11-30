@@ -19,11 +19,11 @@ export default function HomeScreen({navigation}) {
           title="Cloud Firestore"
           onPress={() => navigation.navigate('CloudFirestore')}
         />
-        {/*
         <ListItem
           title="Cloud Storage"
-          onPress={() => navigation.navigate('Auth')}
+          onPress={() => navigation.navigate('CloudStorage')}
         />
+        {/*
         <ListItem
           title="Ad Mob"
           onPress={() => navigation.navigate('Auth')}
