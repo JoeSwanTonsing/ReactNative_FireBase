@@ -1,7 +1,8 @@
 # ReactNative_FireBase
-React Native With Firebase 2020
+React Native With Firebase 2020 - Dated: 29 November 2020
 
-Dated: 29 November 2020
+Basic React Native App with Firebase Integration to showcase how to use firebase products in react-native apps.\ The examples are, in no way perfect, and doest not have examples for every scenario, but will help you kickstart you development. Refer to the official documentation from the React Native Firebase website (links provided below) for more examples.\
+
 
 ### Getting Started:
 
