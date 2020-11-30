@@ -2,8 +2,8 @@
 React Native With Firebase 2020
 
 ### Firebase Features in this Project:
-1. Authentication
-2. Realtime Database
+1. ✅ Authentication - ⚠️ with Email and Password - ‼️ more authentication methods to be done
+2. ✅ Realtime Database
 
 ### Dependencies Versions used in this project:
 1. react-native-cli: 2.0.1
