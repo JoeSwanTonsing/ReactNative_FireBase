@@ -9,7 +9,7 @@ Basic React Native App with Firebase Integration to showcase how to use firebase
 - To get started visit: https://rnfirebase.io
 
 ## Firebase Features in this Project:
-**1. Authentication:**
+**1. Authentication:**<br />
 ⚠️ with Email and Password only.<br />
 ‼️ more authentication methods to be done.<br />
 Docs: https://rnfirebase.io/auth/usage<br />
@@ -17,8 +17,8 @@ Docs: https://rnfirebase.io/auth/usage<br />
 ✔️ 1.2. Sign In - Using registered Email and Password<br />
 ✔️ 1.3. Logout - Logout signed in user<br />
 
-**2. Realtime Database:**
 
+**2. Realtime Database:**<br />
 Docs: https://rnfirebase.io/database/usage<br />
 ✔️ 2.1. Write data to Realtime Database<br />
 ✔️ 2.2. Read data from Realtime Database<br />
@@ -26,11 +26,11 @@ Docs: https://rnfirebase.io/database/usage<br />
 ✔️ 2.4. Delete All Records in Realtime Database<br />
 ✔️ 2.5. Delete Specific Record from Realtime Database<br />
 
-**3. Cloud Firestore:**
 
+**3. Cloud Firestore:**<br />
 Docs: https://rnfirebase.io/firestore/usage<br />
 👉🏻 Check addUser() and addUserMod() methods for the below:<br />
-<br />✔️ 3.1. Write data to Cloud Firestore<br />
+✔️ 3.1. Write data to Cloud Firestore<br />
 ✔️ 3.1.a. using ".add"<br />
 ✔️ 3.1.b. using ".set"<br />
 ✔️ 3.2. Update data in Cloud Firestore<br />
@@ -41,8 +41,7 @@ Docs: https://rnfirebase.io/firestore/usage<br />
 👉🏻 Basics completed. Check the official RNFirebase site for more https://rnfirebase.io/firestore/usage<br />
 
 
-**4. Cloud Storage:**
-
+**4. Cloud Storage:**<br />
 Docs: https://rnfirebase.io/storage/usage<br />
 Example here shows how to deal with image(base64) file<br />
 ✔️ 4.1. Upload File<br />
