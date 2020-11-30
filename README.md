@@ -26,8 +26,10 @@ Dated: 29 November 2020
 -  3.2. Update data in Cloud Firestore ✔️
 -  3.2.a. using ".set" - overrides existing data ✔️
 -  3.2.b. using ".update" - update only the passed parameter ✔️
-- 👉🏻 Check deleteData() for the below:
+- 👉🏻 Check deleteUser() for the below:
 - Delete data using a document ID ✔️
+- 👉🏻 Basics completed. Check the official RNFirebase site for more
+- https://rnfirebase.io/firestore/usage
 
 
 ### Dependencies Versions used in this project:
