@@ -1,6 +1,7 @@
 import React from 'react';
 import {auth} from './Setup';
 
+
 export const SignupUser = (email, password) => {
   return new Promise(function (resolve, reject) {
     auth()

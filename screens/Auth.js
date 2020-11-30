@@ -11,8 +11,10 @@ import {auth} from '../Setup';
 import {SignupUser, SigninUser, SignOutUser} from '../apiService';
 
 import ListItem from '../src/components/ListItem';
+import Spinner from '../src/components/Spinner';
 
 export default function AuthScreen({navigation}) {
+  const [isLoading, setIsLoading] = useState(false);
   const [state, setState] = useState({
     emailAddress: '',
     password: '',
@@ -30,37 +32,49 @@ export default function AuthScreen({navigation}) {
   }, []);
 
   const signup = () => {
+    setIsLoading(true);
     SignupUser(state.emailAddress, state.password)
       .then((data) => {
         alert(data);
       })
       .catch((error) => {
         alert(error);
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
   };
 
   const signin = () => {
+    setIsLoading(true);
     SigninUser(state.emailAddress, state.password)
       .then((data) => {
         alert(data);
       })
       .catch((error) => {
         alert(error);
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
   };
 
   const signout = () => {
+    setIsLoading(true);
     SignOutUser()
       .then((data) => {
         alert(data);
       })
       .catch((error) => {
         alert(error);
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
   };
 
-  return (
-    <SafeAreaView style={{flex: 1}}>
+  function renderScreen() {
+    return (
       <ScrollView>
         {user && (
           <TouchableOpacity style={styles.button} onPress={() => signout()}>
@@ -123,6 +137,21 @@ export default function AuthScreen({navigation}) {
           </TouchableOpacity>
         </View>
       </ScrollView>
+    );
+  }
+
+  return (
+    <SafeAreaView style={{flex: 1}}>
+      {isLoading ? (
+        <View style={styles.spinnerContainer}>
+          <Spinner
+            color="#264653"
+            spinnerText="Logging You In. Please Wait. . . "
+          />
+        </View>
+      ) : (
+        renderScreen()
+      )}
     </SafeAreaView>
   );
 }
