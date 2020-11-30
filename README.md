@@ -1,6 +1,8 @@
 # ReactNative_FireBase
 React Native With Firebase 2020
 
+Dated: 29 November 2020
+
 ### Firebase Features in this Project:
 1. ✅ Authentication - ⚠️ with Email and Password - ‼️ more authentication methods to be done
 2. ✅ Realtime Database
