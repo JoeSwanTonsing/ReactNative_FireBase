@@ -11,11 +11,11 @@ Basic React Native App with Firebase Integration to showcase how to use firebase
 ## Firebase Features in this Project:
 **1. Authentication**\
 ⚠️ with Email and Password only\
-‼️ more authentication methods to be done.
-Docs: https://rnfirebase.io/auth/usage
-✔️ 1.1. Sign Up - Provide Email and Password
-✔️ 1.2. Sign In - Using registered Email and Password
-✔️ 1.3. Logout - Logout signed in user
+‼️ more authentication methods to be done\
+Docs: https://rnfirebase.io/auth/usage\
+✔️ 1.1. Sign Up - Provide Email and Password\
+✔️ 1.2. Sign In - Using registered Email and Password\
+✔️ 1.3. Logout - Logout signed in user\
 
 **2. Realtime Database:**
 Docs: https://rnfirebase.io/database/usage
@@ -25,7 +25,8 @@ Docs: https://rnfirebase.io/database/usage
 ✔️ 2.4. Delete All Records in Realtime Database
 ✔️ 2.5. Delete Specific Record from Realtime Database
 
-3. **Cloud Firestore:** : (Static Implementations Only)
+3. **Cloud Firestore:**
+
 - Docs: https://rnfirebase.io/firestore/usage
 - 👉🏻 Check addUser() and addUserMod() methods for the below:
 -  ✔️ 3.1. Write data to Cloud Firestore
