@@ -5,7 +5,7 @@ Dated: 29 November 2020
 
 ### Firebase Features in this Project:
 1. **Authentication**
-  ⚠️ with Email and Password  ‼️ more authentication methods to be done.
+  \ ⚠️ with Email and Password \‼️ more authentication methods to be done.
 -  1.1. Sign Up - Provide Email and Password ✔
 -  1.2. Sign In - Using registered Email and Password ✔
 -  1.3. Logout - Logout signed in user. ✔️
