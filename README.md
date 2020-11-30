@@ -11,11 +11,13 @@ Dated: 29 November 2020
 1. **Authentication**\
 ⚠️ with Email and Password only\
 ‼️ more authentication methods to be done.
+- Docs: https://rnfirebase.io/auth/usage
 -  1.1. Sign Up - Provide Email and Password ✔
 -  1.2. Sign In - Using registered Email and Password ✔
 -  1.3. Logout - Logout signed in user. ✔️
 
 2. **Realtime Database:**
+- Docs: https://rnfirebase.io/database/usage
 -  2.1. Write data to Realtime Database ✔️
 -  2.2. Read data from Realtime Database ✔️
 -  2.3. Modify/Edit data in Realtime Database ✔️
@@ -23,6 +25,7 @@ Dated: 29 November 2020
 -  2.5. Delete Specific Record from Realtime Database ✔️
 
 3. **Cloud Firestore:** : (Static Implementations Only)
+- Docs: https://rnfirebase.io/firestore/usage
 - 👉🏻 Check addUser() and addUserMod() methods for the below:
 -  3.1. Write data to Cloud Firestore ✔️
 -  3.1.a. using ".add" ✔️
@@ -32,8 +35,11 @@ Dated: 29 November 2020
 -  3.2.b. using ".update" - update only the passed parameter ✔️
 - 👉🏻 Check deleteUser() for the below:
 - Delete data using a document ID ✔️
-- 👉🏻 Basics completed. Check the official RNFirebase site for more
-- https://rnfirebase.io/firestore/usage
+- 👉🏻 Basics completed. Check the official RNFirebase site for more https://rnfirebase.io/firestore/usage
+
+
+4. **Cloud Storage:**
+- Docs: https://rnfirebase.io/storage/usage
 
 
 ## Dependencies : Versions used in this project:
