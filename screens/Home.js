@@ -13,7 +13,7 @@ export default function HomeScreen({navigation}) {
         />
         <ListItem
           title="Realtime Database"
-          onPress={() => navigation.navigate('Auth')}
+          onPress={() => navigation.navigate('RealtimeDB')}
         />
         {/*
         <ListItem

@@ -1,5 +1,6 @@
-import React from 'react';
-import {auth} from './Setup';
+import React, {useState} from 'react';
+import {auth, database} from './Setup';
+
 
 
 export const SignupUser = (email, password) => {
@@ -40,3 +41,45 @@ export const SignOutUser = () => {
       });
   });
 };
+
+export const savePost = (Id, Date, Title, Message) => {
+  return new Promise(function (resolve, reject) {
+    let key;
+    if (Id != null) {
+      key = Id;
+    } else {
+      key = database().ref().push().key;
+    }
+
+    let dataToSave = {
+      Id: key,
+      Date: Date,
+      Title: Title,
+      Message: Message,
+    };
+    database()
+      .ref('posts/' + key)
+      .update(dataToSave)
+      .then((snapshot) => {
+        resolve(snapshot);
+      })
+      .catch((err) => {
+        reject(err);
+      });
+  });
+};
+
+// export const deleteAllPost = () => {
+//   const [posts, setPosts] = useState([]);
+//   return new Promise(function (resolve, reject) {
+//     database()
+//       .ref('posts')
+//       .remove()
+//       .then(() => {
+//         setPosts([]);
+//       })
+//       .catch((err) => {
+//         reject(err);
+//       });
+//   };
+// };

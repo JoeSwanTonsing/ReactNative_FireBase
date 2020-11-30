@@ -157,6 +157,11 @@ export default function AuthScreen({navigation}) {
 }
 
 const styles = {
+  spinnerContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   form: {
     marginVertical: 15,
     marginHorizontal: 10,
