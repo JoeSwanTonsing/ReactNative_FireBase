@@ -23,6 +23,7 @@ export default function HomeScreen({navigation}) {
           title="Cloud Storage"
           onPress={() => navigation.navigate('CloudStorage')}
         />
+        <ListItem title="Ad Mob" onPress={() => navigation.navigate('AdMob')} />
         {/*
         <ListItem
           title="Ad Mob"

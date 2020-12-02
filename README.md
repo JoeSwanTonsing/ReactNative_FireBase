@@ -54,11 +54,13 @@ Example here shows how to deal with image(base64) file<br />
 **5. AdMob:**<br />
 Docs: https://rnfirebase.io/admob/usage<br />
 Example here shows how to create Ads - since it being demo app, TestId is used. For production use your AdId<br />
-✔️ 5.1. Create Banner App<br />
-⎆ For more info in Banner Ads: https://rnfirebase.io/reference/admob/banneradsize<br />
-✔️ 4.2. Get file url<br />
-✔️ 4.3 Add uploaded file to storage bucket and save the url to Realtime Database<br />
-👉🏻 Basics completed. Check the official RNFirebase site for more https://rnfirebase.io/storage/usage<br />
+✔️ 5.1. Create BANNER AD<br />
+⎆ For more info in BANNER ADs: https://rnfirebase.io/reference/admob/banneradsize<br />
+✔️ 5.2. Create INTERSTITIAL AD<br />
+⎆ For more info in INTERSTITIAL ADs: https://rnfirebase.io/admob/displaying-ads#interstitial-ads<br />
+✔️ 5.3 Create REWARDED ADs<br />
+⎆ For more info in REWARDED ADs: https://rnfirebase.io/admob/displaying-ads#rewarded-ads<br />
+👉🏻 Basics completed. Check the official RNFirebase site for more https://rnfirebase.io/admob/usage<br />
 
 
 

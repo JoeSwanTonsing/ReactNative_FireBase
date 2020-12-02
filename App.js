@@ -8,6 +8,7 @@ import AuthScreen from './screens/Auth';
 import RealtimeDBScreen from './screens/RealtimeDB';
 import CloudFireStoreScreen from './screens/cloudFirestore';
 import CloudStorageScreen from './screens/cloudStorage';
+import AdMobScreen from './screens/AdMob';
 
 const Stack = createStackNavigator();
 
@@ -48,6 +49,13 @@ function App() {
           component={CloudStorageScreen}
           options={{
             title: 'Cloud Storage',
+          }}
+        />
+        <Stack.Screen
+          name="AdMob"
+          component={AdMobScreen}
+          options={{
+            title: 'AdMob',
           }}
         />
       </Stack.Navigator>
